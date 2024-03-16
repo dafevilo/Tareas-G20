@@ -8,21 +8,21 @@ Organización de las carpetas
 
 - Tarea_4
 
-  - William
-  - Jorge
-  - Claudia
-  - Yaneth
+  - Tarea-William
+  - Tarea-Jorge
+  - Tarea-Claudia
+  - Tarea-Yaneth
 
 - Tarea_5
 
-  - William
-  - Jorge
-  - Claudia
-  - Yaneth
+  - Tarea-William
+  - Tarea-Jorge
+  - Tarea-Claudia
+  - Tarea-Yaneth
 
 - Tarea_6
 
-  - William
-  - Jorge
-  - Claudia
-  - Yaneth
+  - Tarea-William
+  - Tarea-Jorge
+  - Tarea-Claudia
+  - Tarea-Yaneth
