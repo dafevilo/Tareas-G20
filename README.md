@@ -1,28 +1,7 @@
 # Tareas-G20
 
-- Crear carpeta por persona.
-- Crear rama por tarea nombre-de-la-rama
-- Crear commits "tarea(4): diagrama de flujo"
-
-Organización de las carpetas
-
-- Tarea_4
-
-  - Tarea-William
-  - Tarea-Jorge
-  - Tarea-Claudia
-  - Tarea-Yaneth
-
-- Tarea_5
-
-  - Tarea-William
-  - Tarea-Jorge
-  - Tarea-Claudia
-  - Tarea-Yaneth
-
-- Tarea_6
-
-  - Tarea-William
-  - Tarea-Jorge
-  - Tarea-Claudia
-  - Tarea-Yaneth
+- Esta es mi tarea determinar si un  número primo 
+- Rama Ernesto-18-03-2024
+- Crear commits "tarea(5):ernesto-18-03-2024"
+- fecha(ernesto-12-03-23024)
+- ![](./numeroprimo.jpeg)
