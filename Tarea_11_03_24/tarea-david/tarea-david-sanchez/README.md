@@ -1,1 +1,0 @@
-# Presento mi rutina de trabajo
