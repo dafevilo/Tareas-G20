@@ -2,7 +2,7 @@
 
 - Crear carpeta por persona.
 - Crear rama por tarea nombre-de-la-rama
-- Crear commits "tarea(4): diagrama de flujo"
+- Crear titulo del pr "tarea(4): diagrama de flujo"
 
 Organización de las carpetas
 
