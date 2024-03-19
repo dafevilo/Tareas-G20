@@ -26,3 +26,10 @@ Organización de las carpetas
   - Tarea-Jorge
   - Tarea-Claudia
   - Tarea-Yaneth
+
+Martes
+
+davier
+erpoco
+claudia
+sofia
