@@ -1,0 +1,15 @@
+{
+  "name": "sughey_urbano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "de_bi_y_bi_de .js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
