@@ -1,0 +1,12 @@
+function DecBin(number) {
+    let num = number;
+    let binario = (num % 2).toString();
+    for (; num > 1;) {
+      num = parseInt(num / 2);
+      binario = (num % 2) + (binario);
+    }
+    console.log(binario);
+  }
+  
+  console.log(DecBin(25));
+  console.log(DecBin(289));
