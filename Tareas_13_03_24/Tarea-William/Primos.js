@@ -25,4 +25,4 @@ function Es_Primo(num) {
     console.log("No es primo el numero ",i);
     
     }
-}
+} 
