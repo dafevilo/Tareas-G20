@@ -1,0 +1,11 @@
+{
+  "name": "tareas-g20",
+  "version": "1.0.0",
+  "description": "- Crear carpeta por persona.\r - Crear rama por tarea daniel-11-03-2024\r - Crear commits \"tarea(4): daniel-11-03-24\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
