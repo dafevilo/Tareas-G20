@@ -37,4 +37,5 @@ function dAB(decimal) {
 }
 const numeroD = 10;
 console.log("El número decimal", numeroDecimal, "en binario es:", dAB(numeroDecimal));
+//fin
 
