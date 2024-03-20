@@ -1,17 +1,17 @@
 const estudiante1 = {
     nombre: "Ana",
-    edad: 20,
-    promedio: 8.5
+    edad: 22,
+    promedio: 85
 };
 const estudiante2 = {
     nombre: "Juan",
     edad: 22,
-    promedio: 9.2
+    promedio: 78
 };
 const estudiante3 = {
     nombre: "María",
-    edad: 19,
-    promedio: 7.8
+    edad: 21,
+    promedio: 90
 };
 const estudiantes = [estudiante1, estudiante2, estudiante3];
 console.log(estudiantes[1].nombre);
