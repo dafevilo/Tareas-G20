@@ -111,4 +111,4 @@ if (total > 100) {
 } else {
     console.log("Agrega más productos para calificar para envío gratuito");
 }
-//FIN DEL WORKSHOP
+//FIN DEL WORKSHOP >>
