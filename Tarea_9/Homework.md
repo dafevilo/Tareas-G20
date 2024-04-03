@@ -1,4 +1,4 @@
-# Tarea 9
+Tarea 9
 
 - **Entendiendo Closures:**
 
@@ -121,6 +121,7 @@ usuario();
 
   Descripción: Crea una función que tome un arreglo y un callback de filtro, y devuelva un nuevo arreglo con los elementos que pasan el filtro.
   Ejercicio:
+
 
   ```javascript
   const numeros = [1, 2, 3, 4, 5];

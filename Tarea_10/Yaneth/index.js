@@ -19,7 +19,6 @@ function main() {
           pokemonsFull.push({ ...pokemons[i], ...response.data });
         } else {
           pokemonsFull.push(pokemons[i]);
-          console.log(pokemonsFull, index)
         }
       }
 
