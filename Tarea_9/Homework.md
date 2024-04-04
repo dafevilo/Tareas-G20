@@ -16,7 +16,7 @@
   }
 
   const miFuncion = creaFuncion();
-  miFuncion(); // ¿Qué imprimirá? ¿Por qué?
+  miFuncion(); Imprimira el mensaje "Hola"
   ```
 
 - **Uso de Closures en Contextos Prácticos:**
@@ -29,23 +29,25 @@
   function crearContador() {
     let count = 0;
     return function () {
-      // Completa esta función para incrementar 'count' en 1 y devolver su valor
+      count++;
+      return count
     };
   }
 
   const contador = crearContador();
-  console.log(contador()); // ¿Qué imprimirá? ¿Por qué?
-  console.log(contador()); // ¿Qué imprimirá ahora?
-  ```
-
+  console.log(contador()); imprimira el numero 1 porqué se cumple la función de aumentar el digito
+  y además retornarlo hasta su numero correspondiente
+  console.log(contador()); imprimira el numero 2 porqué cada vez el contador aumenta los digitos consecutivos porqué las funciones cada vez se van sumando
 - **Uso Avanzado de Closures:**
 
   Descripción: Implementa una función que tome un número como argumento y devuelva una función que multiplique su argumento por el número original utilizando un closure.
   Ejercicio:
 
   ```javascript
-  function multiplicador(numero) {
-    // Completa esta función para devolver una función que multiplique su argumento por 'numero'
+  function multiplicador(numero1) {
+    return function (numero2){
+      return numero1*numero2
+    }
   }
   const duplicar = multiplicador(2);
   console.log(duplicar(5)); // Debería imprimir 10
@@ -59,7 +61,8 @@
 
   ```javascript
   function sumarArreglo(numeros, callback) {
-    // Completa esta función para sumar todos los números del arreglo y llamar al callback con el resultado
+    const sumatoria = numeros.reduce((total, num) => total + num, 0);
+  callback(sumatoria)
   }
   const numeros = [1, 2, 3, 4, 5];
   sumarArreglo(numeros, function (resultado) {
@@ -74,7 +77,13 @@
 
   ```javascript
   function filtrarArreglo(arreglo, callbackFiltro) {
-    // Completa esta función para devolver un nuevo arreglo con los elementos que pasan el filtro
+     const arregloNuevo = [];
+    for (let i = 0; i < arreglo.length; i++) { 
+        if (callbackFiltro(arreglo[i])) {
+            arregloNuevo.push(arreglo[i]);
+        }
+        }
+    return arregloNuevo;
   }
 
   const numeros = [1, 2, 3, 4, 5];
