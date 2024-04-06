@@ -19,19 +19,29 @@ const estudiantes = [
 // Punto 1
 console.log(estudiantes[1].nombre); 
 
-estudiantes[0].edad = 25;
-console.log(estudiantes[0].edad);
+const nombreRef = "Ana";
+const nuevaEdad = 25;
 
-console.log(estudiantes[0]);
+const edadActual = estudiantes.map((estudiante) => {
+  if(estudiante.nombre === nombreRef){  
+    return {...estudiante, edad: nuevaEdad };
+  }
+   return estudiante;  
+});
+console.log(edadActual[0]);
 
 //Punto 2
 
-let sumaEd = 0;
-for(let i = 0; i < estudiantes.length; i++){
-  sumaEd += estudiantes[i].edad; 
-}
-promedio = sumaEd / estudiantes.length;
-console.log("La suma de edades es:", sumaEd);
+let sumaEdades = 0;
+let count = 0;
+
+estudiantes.forEach((estudiante) => {
+  sumaEdades += estudiante.edad;
+  count ++;
+});
+
+promedio = sumaEdades / estudiantes.length;
+console.log("La suma de edades es:", sumaEdades);
 console.log("El promedio de edades es:", promedio);
 
 
